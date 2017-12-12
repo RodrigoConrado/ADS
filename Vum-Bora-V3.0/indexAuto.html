@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Automotivo</title>
+  <!--responsive--> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- css bootstrap-->
+  <link rel="stylesheet" href="source/css/bootstrap.min.css">
+  <link rel="stylesheet" href="source/css/bootstrap-theme.min.css">
+  <!-- js bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="source/js/bootstrap.min.js"></script>
+  <!--custom css-->
+  <link rel="stylesheet" type="text/css" href="css/backgroud.css">
+  <link rel="stylesheet" type="text/css" href="css/conteudoindex.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/menuNovo.css">
+  <link rel="stylesheet" type="text/css" href="css/slide.css">
+  <script src="js/menuNovo.js" type="text/javascript"></script>
+</head>
+<body>
+<!--########################################################################################################-->
+<!--Menu-->
+<div id="flipkart-navbar">
+  <div class="container">
+   <br><br>
+   <div class="row row2">
+    <div class="col-sm-2">
+      <h2 style="margin:0px;"><span class="smallnav menu" onclick="openNav()">☰ <img src="css/img/Logo1.png" class="img-responsive"></span></h2>
+      <h1 style="margin:0px;"><span class="largenav"><img src="css/img/Logo1.png" class="img-responsive"></span></h1>
+    </div>
+    <div class="flipkart-navbar-search smallsearch col-sm-8 col-xs-11">
+      <div class="row">
+        <input class="flipkart-navbar-input col-xs-11" type="" placeholder="Pesquise Eventos" name="" style="color: black">
+        <button class="flipkart-navbar-button col-xs-1">
+          <svg width="15px" height="15px">
+            <path d="M11.618 9.897l4.224 4.212c.092.09.1.23.02.312l-1.464 1.46c-.08.08-.222.072-.314-.02L9.868 11.66M6.486 10.9c-2.42 0-4.38-1.955-4.38-4.367 0-2.413 1.96-4.37 4.38-4.37s4.38 1.957 4.38 4.37c0 2.412-1.96 4.368-4.38 4.368m0-10.834C2.904.066 0 2.96 0 6.533 0 10.105 2.904 13 6.486 13s6.487-2.895 6.487-6.467c0-3.572-2.905-6.467-6.487-6.467 "></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="cart largenav col-sm-2">
+      <a class="cart-button" href="login.html">Login</a>
+    </div>
+    
+    
+
+    <div class="row row1 col-md-12" align="center">
+      <ul class="largenav">
+        <li class="upper-links"><a class="links" href="index.html">Inicio</a></li>
+        <li class="upper-links dropdown"><a class="links">Categorias</a>
+          <ul class="dropdown-menu">
+            <li class="profile-li"><a class="profile-links" href="indexAuto.html">Automotivo</a></li>
+            <li class="profile-li"><a class="profile-links" href="indexConcerto.html">Encontros</a></li>
+            <li class="profile-li"><a class="profile-links" href="#">Show</a></li>
+            <li class="profile-li"><a class="profile-links" href="#">Teatro</a></li>
+            <li class="profile-li"><a class="profile-links" href="#">Festival</a></li>
+            <li class="profile-li"><a class="profile-links" href="#">Link</a></li>
+            <li class="profile-li"><a class="profile-links" href="#">Link</a></li>
+          </ul>
+        </li>
+        <li class="upper-links"><a class="links" id="myBtn">Muda de cidade</a></li>
+        <li class="upper-links"><a class="links" href="#">Ultimos Eventos</a></li>
+        <li class="upper-links"><a class="links" href="#">Novidades</a></li>
+        <li class="upper-links"><a class="links" href="profile.html">Perfil</a></li>
+        <li class="upper-links"><a class="links" href="#">Link 4</a></li>
+        <li class="upper-links"><a class="links" href="#">Link 4</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+<div id="mySidenav" class="sidenav">
+  <div class="container" style="background-color: #c32100; padding-top: 10px;">
+    <span class="sidenav-heading">Menu</span>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  </div>
+  <li class="upper-links"><a class="links" href="index.html">Inicio</a></li>
+  <li class="upper-links"><a class="links" href="cidades.html">Muda de cidade</a></li>
+  <li class="upper-links"><a class="links" href="#">Ultimos Eventos</a></li>
+  <li class="upper-links"><a class="links" href="#">Novidades</a></li>
+  <li class="upper-links"><a class="links" href="#">Ultimos Eventos</a></li>
+  <li class="upper-links"><a class="links" href="#">Novidades</a></li>
+  <li class="upper-links dropdown"><a class="links" >Categorias</a>
+    <ul class="dropdown-menu">
+      <li class="profile-li"><a class="profile-links" href="indexAuto.html">Automotivo</a></li>
+      <li class="profile-li"><a class="profile-links" href="indexFestival.html">Encontros</a></li>
+      <li class="profile-li"><a class="profile-links" href="#">Show</a></li>
+      <li class="profile-li"><a class="profile-links" href="indexConcerto.html">Teatro</a></li>
+      <li class="profile-li"><a class="profile-links" href="indexFestival.html">Festival</a></li>
+      <li class="profile-li"><a class="profile-links" href="#">Link</a></li>
+      <li class="profile-li"><a class="profile-links" href="#">Link</a></li>
+    </ul>
+  </li>
+  <br>
+  <br>
+  <br>
+  <br>
+  <li class="upper-links"><a class="links" href="profile.html">Meu Perfil</a></li>
+  <li class="upper-links"><a class="links" href="cadastro.html">Registra-se</a></li>
+  <li class="upper-links"><a class="links" href="login.html">Login</a></li>
+</div> 
+<!--########################################################################################################-->
+
+
+
+ <!--conteudo-->
+<div class="container">
+  <h4 align="center" class="subtitulo">ÚLTIMOS EVENTOS!!!</h4>
+        <div class="row">
+        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12 container-fluid">
+        </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe container-fluid">
+                <img id="imgti" src="css/img/auto/index1.jpg" class="img-responsive">
+                <div  id="texto"><td><class="desconto">+ Info do Evento <a href="telaEvento02-Automotivo.html" class="compra">VER</a></td></div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle container-fluid">
+                <img id="imgti" src="css/img/auto/index2.jpg" class="img-responsive">
+                <div  id="texto"><td><class="desconto">+ Info do Evento<button class="compra">VER</button></td></div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe container-fluid">
+                <img id="imgti" src="css/img/auto/index3.jpg" class="img-responsive">
+                <div  id="texto"><td><class="desconto">+ Info do Evento <a href="" class="compra">VER</a></td></div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation container-fluid">
+                <img id="imgti" src="css/img/auto/index4.jpg" class="img-responsive">
+                <div  id="texto"><td><class="desconto">+ Info do Evento <a href="" class="compra">VER</a></td></div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray container-fluid">
+                <img id="imgti" src="css/img/auto/index5.jpg" class="img-responsive">
+                <div  id="texto"><td><class="desconto">+ Info do Evento <a href="" class="compra">VER</a></td></div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation container-fluid">
+                <img id="imgti" src="css/img/auto/index6.jpg" class="img-responsive">
+                <div  id="texto"><td><class="desconto">+ Info do Evento <a href="" class="compra">VER</a></td></div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray container-fluid">
+                <img id="imgti" src="css/img/auto/index7.jpg" class="img-responsive">
+                <div  id="texto"><td><class="desconto">+ Info do Evento <a href="" class="compra">VER</a></td></div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation container-fluid">
+               <img id="imgti" src="css/img/auto/index8.jpg" class="img-responsive">
+                <div  id="texto"><td><class="desconto">+ Info do Evento <a href="" class="compra">VER</a></td></div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation container-fluid">
+               <img id="imgti" src="css/img/auto/index9.jpg" class="img-responsive">
+                <div  id="texto"><td><class="desconto">+ Info do Evento <a href="" class="compra">VER</a></td></div>
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation container-fluid">
+               <img id="imgti" src="css/img/auto/index10.jpg" class="img-responsive">
+                <div  id="texto"><td><class="desconto">+ Info do Evento <a href="" class="compra">VER</a></td></div>
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation container-fluid">
+               <img id="imgti" src="css/img/auto/index11.jpg" class="img-responsive">
+                <div  id="texto"><td><class="desconto">+ Info do Evento <a href="" class="compra">VER</a></td></div>
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation container-fluid">
+               <img id="imgti" src="css/img/auto/index12.jpg" class="img-responsive">
+                <div  id="texto"><td><class="desconto">+ Info do Evento <a href="" class="compra">VER</a></td></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+  <!-- Footer -->
+<div class="footer" align="center">
+        Copyright &copy; Desenvolvimento Web 2017.2
+    </div>
+	
+
+
+	
+</body>
+</html>

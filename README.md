@@ -1,2 +1,0 @@
-# ADS
-Site de Eventos.

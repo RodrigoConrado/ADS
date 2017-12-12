@@ -1,0 +1,42 @@
+/*empurra o rodape para baixo*/
+.push{
+    height: 1450px;
+}
+
+.footer {
+  background-color:  #c32100;
+  color: white;
+  /*Modfifica o tamanho do rodape*/
+  line-height: 40px;
+  
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        width: 50%;
+    }
+    .push{
+    height: 6750px;
+}
+    .footer {
+	  background-color:  #c32100;
+	  color: white;
+	  /*Modfifica o tamanho do rodape*/
+	  line-height: 10px;
+  
+}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+      .footer {
+	  background-color:  #c32100;
+	  color: white;
+	  /*Modfifica o tamanho do rodape*/
+	  line-height: 10px;
+  
+}
+}

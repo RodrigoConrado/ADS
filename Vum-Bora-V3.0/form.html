@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="Eventos">
+<head>
+  <meta charset="utf-8">
+  <title>Vum Bora!!!</title>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+  <script src="angular/evento.module.js"></script>
+  <script src="angular/evento.controller.js"></script>
+</head>
+<body ng-controller="EventosController">
+
+	<form class="form-eventos" ng-submit="adicionarEvento()">
+      <h1>Adicionar Evento</h1>
+      
+      <div class="form-campo">
+        <label for="img">Url da img</label>
+        <input type="text" id="img" ng-model="novoEvento.img">
+      </div>
+     
+      <footer>
+        <button type="reset">Limpar</button>
+        <button type="submit">Salvar</button>
+      </footer>
+    </form>
+
+</body>
+</html>

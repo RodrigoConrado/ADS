@@ -1,0 +1,75 @@
+.header {
+    text-align: center;
+    padding: 32px;
+    color: white;
+    background-color: #c32100;
+   
+}
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 12px;  
+}
+
+/* Clear floats after the columns */
+.postagens:after {
+    content: "";
+    display:;
+    clear: ;
+   
+}
+/*Nessa parte voce pode altera a barra que fica dentro das postagens*/
+.port-image{
+    width: %;
+}
+.gallery_product{
+    margin: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    width: 390px;
+    height: 190px;
+}
+.gallery_product{
+    color: white;
+}
+#imgti{
+    width: 100%;
+    height: 100%;
+}
+#texto{
+    font-style: white;
+    font-weight: bolder;
+    font-size: 20px;
+    position: relative;
+    margin-top: -31px;
+    background-color: black;
+    opacity: 0.8;
+}
+.verinfor{
+    color: white;
+    background: black;
+    border: none;
+    
+}
+
+
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
